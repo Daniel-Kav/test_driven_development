@@ -14,6 +14,13 @@ const analyzeArray = {
         let minimum = Math.min(...array);
         return minimum;
     },
+    max: (array) => {
+        let maximum = Math.max(...array);
+        return maximum;
+    },
+    length: (array) => {
+        return  array.length;
+    }
 }
 
 module.exports = analyzeArray;
