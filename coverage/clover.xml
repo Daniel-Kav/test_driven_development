@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1695320391374" clover="3.2.0">
-  <project timestamp="1695320391375" name="All files">
-    <metrics statements="10" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3" elements="16" coveredelements="14" complexity="0" loc="10" ncloc="10" packages="2" files="4" classes="4"/>
+<coverage generated="1695324542960" clover="3.2.0">
+  <project timestamp="1695324542960" name="All files">
+    <metrics statements="24" coveredstatements="22" conditionals="4" coveredconditionals="3" methods="10" coveredmethods="9" elements="38" coveredelements="34" complexity="0" loc="24" ncloc="24" packages="2" files="6" classes="6"/>
     <package name="test_driven_development">
-      <metrics statements="8" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <metrics statements="22" coveredstatements="20" conditionals="4" coveredconditionals="3" methods="9" coveredmethods="8"/>
+      <file name="analyzeArray.js" path="C:\Users\Cyrus\Documents\projects\test_driven_development\analyzeArray.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="calculator.js" path="C:\Users\Cyrus\Documents\projects\test_driven_development\calculator.js">
+        <metrics statements="8" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
       <file name="capitalize.js" path="C:\Users\Cyrus\Documents\projects\test_driven_development\capitalize.js">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
