@@ -1,3 +1,4 @@
+const { array } = require("yargs");
 
 
 const analyzeArray = {
@@ -8,7 +9,11 @@ const analyzeArray = {
     },0);
     let average = total / array.length;
     return average;
-}
+    },
+    min: (array) => {
+        let minimum = Math.min(...array);
+        return minimum;
+    },
 }
 
 module.exports = analyzeArray;
