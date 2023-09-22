@@ -23,5 +23,5 @@ describe('Caesar Cipher', () => {
     
   it('should maintain the same case', () => {
     expect(caesarCipher('aBcDeF', 2)).toBe('cDeFgH');
-  });
+  })
 });
